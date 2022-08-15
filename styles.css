@@ -33,7 +33,7 @@ body {
 }
 .main {
     background-color:darkgoldenrod;
-    margin: 5% 10% 5% 10%;
+    margin: 5% 5% 5% 5%;
 
 }
 header{
@@ -53,16 +53,58 @@ navbar{
   padding-right: 2.5em;
   height: 20em;
   border: dotted 1px white;
+  height: 50em;
   width: 10em;
+  /*list-style: none;
+  list-style-image: url(images/bullet.png);*/
+  
 }
 
 .card{
   border: solid 2px whitesmoke;
   border-radius: 4px;
   width: 25%;
-  height: 30%;
+  height: 20em;
   display: inline-block;
 }
 /*#cafenoir{
   margin-left: 15em;
 }*/
+#cafenoir {
+  background-image: url(images/cn.jpg);
+}
+#espresso{
+  background-image: url(images/esp.jpg);
+  background-size: 500px 400px;
+   
+}
+#latte{
+  background-image: url(images/latte.jpg);
+}
+#cappuccino{
+  background-image: url(images/capp.jpeg);
+  background-repeat: no-repeat;
+  background-size: 350px 400px; 
+}
+#americano{
+  background-image: url(images/amer.jpeg);
+  background-repeat: no-repeat;
+  background-size: 125%;
+}
+#macchiato{
+  background-image: url(images/macc.jpg);
+  background-size: 400px 400px;
+}
+.cardtitle{
+  background: rgba(211,211,211,.8);
+  text-align: center;
+}
+.cardtext{
+  background: rgba(211,211,211,.8);
+}
+.recipelink{
+  background: rgba(211,211,211,.7);
+}
+.cardbox h2{
+  padding-left: 20px;
+}
